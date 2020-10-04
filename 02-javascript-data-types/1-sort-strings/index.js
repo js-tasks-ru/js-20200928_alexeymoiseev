@@ -16,8 +16,6 @@ export function sortStrings(arr, param = 'asc') {
     }
   );
 
-  console.log(sortArr);
-
   return sortArr;
 
 }
