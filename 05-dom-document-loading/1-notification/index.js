@@ -5,6 +5,7 @@ export default class NotificationMessage {
               { duration = 1000,
                 type = 'success'
               } = {}) {
+
     this.message = message;
     this.duration = duration;
     this.type = type;

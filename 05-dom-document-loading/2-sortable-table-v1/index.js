@@ -2,6 +2,7 @@ export default class SortableTable {
   subElements = {};
 
   constructor(header = [], { data = []} = {}) {
+
     this.header = header;
     this.data = data;
 
